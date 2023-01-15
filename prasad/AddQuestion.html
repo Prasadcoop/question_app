@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Make a Question paper...</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Add Questions</h1>
+        <input type="text" id="inputval" name="question" placeholder="add question" />
+        <button type="submit" onclick="newevent()">Submit</button>
+        <ul id="makelist">
+            <li>Hit map</li>
+        </ul>
+    </div>
+
+    <div class="container2">
+
+        <h1>Dynamically add Question</h1>
+        <hr>
+        <form>
+            <div class="quediv">
+                <div class="form">
+                    <lable></lable>
+                    <input type="text" name="question[]" class="form-control" />
+                    <button type="submit" onclick="addquestion()">Add </button>
+                    <button type="submit">Remove</button>
+                </div>
+                <div class="form">
+                    <input type="submit" name="submit" value="Submit">
+
+                </div>
+                <div id="more"></div>
+            </div>
+        </form>
+
+    </div>
+
+</body>
+
+</html>

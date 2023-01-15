@@ -1,0 +1,43 @@
+.main-container{
+    text-align: center;
+    
+}
+.question-bank{
+    margin-top: 5rem;
+    text-align: center;
+    padding:2px;
+    
+}
+.count{
+    display: inline-block;
+    margin-right: 1rem;
+    margin-top: 3rem;
+}
+#question{
+    height:2rem;
+    width: 31rem;
+}
+.option{
+    margin-right: 15rem;
+    margin-top: 5px;
+    padding: 1rem;
+}
+
+.btn{
+    background-color: blue;
+    color: azure;
+    text-align: center;
+    padding: 0.4rem;
+    margin: 1rem;
+}
+#option-list{
+    display: inline-block;
+    text-align: left;
+    margin-left: -9rem;
+}
+.fa fa-plus-square-o{
+    font-size: 30px;
+}
+.input-opt{
+margin-left: 6rem;
+}
